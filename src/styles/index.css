@@ -8,6 +8,16 @@ body {
   overflow-y: scroll;
 }
 
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #fff2;
+  color: #FDB913;
+  cursor: pointer;
+}
+
 .header.container {
   padding: 20px 15px 0px;
 }
