@@ -46,14 +46,14 @@ body {
 }
 
 header {
-  background-image: url(/src/images/header_bg_shade.png), url(/src/images/header__bg.png);
+  background-image: url(../images/header_bg_shade.png), url(../images/header__bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #fff;
 }
 @media screen and (min-width: 500px) {
   header {
-    background-image: url(/src/images/header_bg_shade.png), url(/src/images/header__bg_1200.png);
+    background-image: url(../images/header_bg_shade.png), url(../images/header__bg_1200.png);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -63,7 +63,7 @@ header {
 }
 @media screen and (min-width: 1600px) {
   header {
-    background-image: url(/src/images/header_bg_shade.png), url(/src/images/header__bg_1600.png);
+    background-image: url(../images/header_bg_shade.png), url(../images/header__bg_1600.png);
   }
 }
 
@@ -664,7 +664,7 @@ header {
 
 .custom-checkbox:checked + label::before {
   background-color: #fff;
-  background-image: url("/src/images/icons/checkboxArrow.svg");
+  background-image: url("../images/icons/checkboxArrow.svg");
 }
 
 /* Hover checkbox */

@@ -49,18 +49,18 @@ body {
     }
 }
 header {
-    background-image: url(/src/images/header_bg_shade.png),url(/src/images/header__bg.png);
+    background-image: url(../images/header_bg_shade.png),url(../images/header__bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #fff;
     @media screen  and (min-width: 500px) {
-        background-image: url(/src/images/header_bg_shade.png),url(/src/images/header__bg_1200.png);
+        background-image: url(../images/header_bg_shade.png),url(../images/header__bg_1200.png);
     }
     @media screen and (min-width: 1200px) {
         background-attachment: fixed;
     }
     @media screen and (min-width: 1600px) {
-        background-image: url(/src/images/header_bg_shade.png),url(/src/images/header__bg_1600.png);
+        background-image: url(../images/header_bg_shade.png),url(../images/header__bg_1600.png);
     }
 }
 .header__logo {
@@ -566,7 +566,7 @@ header {
   }
   .custom-checkbox:checked+label::before {
     background-color: #fff;
-    background-image: url("/src/images/icons/checkboxArrow.svg");
+    background-image: url("../images/icons/checkboxArrow.svg");
   }
   /* Hover checkbox */
 .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
