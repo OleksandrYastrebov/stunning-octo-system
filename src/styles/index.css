@@ -404,6 +404,8 @@ header {
 @media screen and (min-width: 1200px) {
   .swiper-container {
     width: 84vw;
+    overflow: hidden;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1600px) {
